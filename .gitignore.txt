@@ -1,0 +1,21 @@
+# Build files
+build/
+target/
+
+# Compiled files
+*.class
+
+# Logs
+*.log
+
+# JAR files
+*.jar
+
+# Eclipse / STS files
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
