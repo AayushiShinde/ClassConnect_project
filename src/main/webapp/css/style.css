@@ -1,0 +1,80 @@
+:root {
+    --primary: #2563eb;
+    --secondary: #3b82f6;
+    --bg: #f1f5f9;
+    --sidebar: #1e293b;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    margin: 0;
+    display: flex;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background: var(--sidebar);
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h2 {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 260px;
+    padding: 40px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-card {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.btn-logout {
+    background: #ef4444;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
